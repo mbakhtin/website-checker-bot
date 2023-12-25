@@ -1,3 +1,6 @@
+/**
+ * @OnlyCurrentDoc
+ */
 const token = PropertiesService.getScriptProperties().getProperty("BOT_KEY"); 
 const webAppUrl = PropertiesService.getScriptProperties().getProperty("WEB_URL");
 const telegramUrl = "https://api.telegram.org/bot" + token;
